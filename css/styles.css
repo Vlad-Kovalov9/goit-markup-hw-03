@@ -245,6 +245,13 @@ margin-left: auto;
    padding-bottom: 120px;
 }
 
+.portfolio-service {
+   border-bottom: 1px solid #E7E9FC;
+   border-left: 1px solid #E7E9FC;
+   border-right: 1px solid #E7E9FC;
+   width: calc((100% - 2 * 24px) / 3);
+}
+
 .portfolio-list {
    display: flex;
    flex-wrap: wrap;
@@ -282,12 +289,9 @@ margin-left: auto;
     margin-left: 16px;
  }
 
- .portfolio-service {
-   width: calc((100% - 2 * 24) / 3);
- }
+ /* FOOTER */
 
- /* footer */
-.footer {
+ .footer {
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
