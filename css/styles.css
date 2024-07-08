@@ -27,16 +27,7 @@ img {
    height: auto;
 }
 
-.visually-hidden {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   border: 0;
-   padding: 0;
-   white-space: nowrap;
-   overflow: hidden;
-}
+
 
 .container {
    width: 1158px;
@@ -49,6 +40,7 @@ img {
 
 .header-container {
    display: flex;
+   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -74,11 +66,12 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px
 }
 
 .header-logo-studio {
     color: #2E2F42;
-    margin-right: 76px;
+
 }
 
 .header-navigation-list {
@@ -152,6 +145,7 @@ margin-left: auto;
     border: none;
     margin: 0 auto;
     display: block;
+    min-width: 169px;
  }
 
 
@@ -165,6 +159,17 @@ margin-left: auto;
 .features {
    padding-top: 120px;
    padding-bottom: 120px;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   overflow: hidden;
 }
 
 .features-list {
@@ -306,6 +311,8 @@ margin-left: auto;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
  }
 
  .footer-logo-studio {
